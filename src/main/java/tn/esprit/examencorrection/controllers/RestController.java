@@ -43,7 +43,7 @@ public int AddBeneficiaire(@RequestBody Beneficiaire bf) {
     }
     @GetMapping("/getBeneficairesAsType/{TYpe}")
     public Set<Beneficiaire> GETBENEBYTYPE(@PathVariable TypeContrat TYpe){
-        return  iExamen.getBeneficairesAsType(TYpe);
+        return  iExamen.getBeneficairesAsType(TYpe);    //xx
 
     }
 
